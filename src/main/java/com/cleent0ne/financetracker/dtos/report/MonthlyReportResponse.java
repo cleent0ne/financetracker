@@ -1,4 +1,4 @@
-package com.cleent0ne.financetracker.dtos.auth;
+package com.cleent0ne.financetracker.dtos.report;
 
 import java.math.BigDecimal;
 
