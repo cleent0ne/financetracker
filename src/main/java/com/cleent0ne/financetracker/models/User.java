@@ -47,10 +47,13 @@ public class User {
     @Enumerated(EnumType.STRING)
     private Role role;
 
+    @Builder.Default
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<Transaction> transactions = new ArrayList<>();
 
+    @Builder.Default
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<Budget> budgets = new ArrayList<>();
+
 
 }

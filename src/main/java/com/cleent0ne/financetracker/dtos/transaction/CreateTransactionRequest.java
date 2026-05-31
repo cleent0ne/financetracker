@@ -1,4 +1,4 @@
-package com.cleent0ne.financetracker.dtos.auth;
+package com.cleent0ne.financetracker.dtos.transaction;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;

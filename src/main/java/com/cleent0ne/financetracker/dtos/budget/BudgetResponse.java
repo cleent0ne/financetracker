@@ -1,6 +1,7 @@
-package com.cleent0ne.financetracker.dtos.auth;
+package com.cleent0ne.financetracker.dtos.budget;
 
 import java.math.BigDecimal;
+import java.util.UUID;
 
 import com.cleent0ne.financetracker.enums.Category;
 
@@ -11,7 +12,7 @@ import lombok.Data;
 @Builder
 public class BudgetResponse {
 
-    private Long id;
+    private UUID id;
     private Category category;
     private BigDecimal limitAmount;
 }

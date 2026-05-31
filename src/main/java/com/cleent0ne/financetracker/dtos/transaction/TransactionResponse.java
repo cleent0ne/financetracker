@@ -1,4 +1,4 @@
-package com.cleent0ne.financetracker.dtos.auth;
+package com.cleent0ne.financetracker.dtos.transaction;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
